@@ -41,7 +41,6 @@
 └── environment.yml              # Conda 环境配置文件（可选）
 
 ```
-
 ---
 
 ## 环境依赖
@@ -74,6 +73,9 @@ jupyter==1.0.0
 ```
 
 ---
+## 数据集获取
+数据集：https://www.kaggle.com/datasets/kimxyi/predict-final-dataset-and-model
+运行时路径请自行调整
 
 ## 使用方法
 
