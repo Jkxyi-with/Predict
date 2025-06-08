@@ -142,3 +142,6 @@ python data_ana.py
 1. D. R. Cox, “Regression Models and Life-Tables,” *Journal of the Royal Statistical Society*, 1972.
 2. 阿里天池用户行为数据集：https://tianchi.aliyun.com/dataset/649
 3. Lifelines 生存分析工具：https://lifelines.readthedocs.io/
+4. 吴下阿泽. (2021, August 16). 利用生存分析 Kaplan‑Meier 法与 COX 比例风险回归模型进行客户流失分析与剩余价值预测. CSDN博客。检索自 https://blog.csdn.net/maiyida123/article/details/119736185
+5. Li, M. (2022, November 1). Research on the prediction of e‑commerce platform user churn based on Random Forest model. In *Proceedings of the 3rd International Conference on Computer Science and Management Technology (ICCSMT)* (pp. 34–39). IEEE. https://doi.org/10.1109/ICCSMT58129.2022.00014
+
