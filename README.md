@@ -16,20 +16,30 @@
 
 ```
 .
-├── compare_models.ipynb        # 模型评估对比分析
-├── data_ana.py                 # event=1 样本分析
-├── data_process.ipynb         # 行为日志预处理与划分
-├── data_pro2.ipynb            # 强化版本特征工程
-├── read_data.py               # 快速查看数据结构
-├── train_features.ipynb       # Cox 有特征训练流程
-├── train_xgboost.ipynb        # XGBoost 训练流程
-├── train_cox_xg.ipynb         # Cox + XGBoost 组合建模
-├── train_linear.ipynb         # Logistic 回归基线模型
-├── train.ipynb                # Cox 无详细特征与随机森林建模训练与比较流程
-├── train3.py                  # 风险得分计算与排序
-├── top_k_recall_comparison.png # Top-K 排名效果图
-├── requirement.txt            # Python 依赖包说明
-└── README.md                  # 当前说明文件
+├── data/
+│   ├── data_ana.py              # event=1 样本分析
+│   ├── data_process.ipynb       # 行为日志预处理与划分
+│   ├── data_pro2.ipynb          # 强化版本特征工程
+│   └── read_data.py             # 快速查看数据结构
+│
+├── train_model/
+│   ├── train.ipynb              # Cox 无详细特征与随机森林建模训练与比较流程
+│   ├── train3.py                # 风险得分计算与排序
+│   ├── train_cox_xg.ipynb       # Cox + XGBoost 组合建模
+│   ├── train_features.ipynb     # Cox 有特征训练流程
+│   ├── train_linear.ipynb       # Logistic 回归基线模型
+│   └── train_xgboost.ipynb      # XGBoost 训练流程
+│
+├── results/
+│   ├── compare_models.ipynb     # 模型评估对比分析
+│   ├── compare.py               # 模型对比脚本（Top-K指标）
+│   ├── score.py                 # 精度评估与打分函数
+│   └── top_k_recall_comparison.png  # Top-K 排名效果图
+│
+├── README.md                    # 项目说明文件
+├── requirement.txt              # Python 依赖包列表（pip）
+└── environment.yml              # Conda 环境配置文件（可选）
+
 ```
 
 ---
